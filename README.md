@@ -5,11 +5,12 @@ This Application allows for TCP communication between a server and client.
 This project is made up of two applications: a server and a client app.
 
 ## 📝 Table of Contents
-- [Overview](#overview)
-- [How It Works](#how-it-works)
-- [Setup and Run Instructions](#setup-and-run-instructions)
-- [Features](#features)
-- [Dependencies](#dependencies)
+- [Overview](#-📖-overview)
+- [How It Works](#-⚙️how-it-works)
+- [Setup and Run Instructions](#-🚀-setup-and-run-instructions)
+- [Features](#-✨-features)
+- [Dependencies](#-📦-dependencies)
+- [Notes](#-📝-Notes)
 
 ## 📖 Overview
 This project consists of:
@@ -51,10 +52,13 @@ pip install Pillow
 
 ## ✨ Features
 - **Server App**:
-  - Displays connected clients.
+  - User-friendly interface
+  - Displays connected clients in a terminal UI
+  - Displays messages from connected clients.
 - **Client App**:
   - User-friendly interface.
   - Real-time messaging to server with error handling.
+  - Clicking 'Back' disconnects the client from the server.
 
 ## 📦 Dependencies
 - **Python libraries**:
@@ -62,3 +66,6 @@ pip install Pillow
   - `socket`
   - `threading`
   - `Pillow` (for image handling)
+ 
+## 📝 Notes
+  Upon running Server App, the app will automatically set the Server IP to the computers IPv4 and when running the server on any chosen port (under 2^16 or 65536) the server will start listening for messages from clients that connect to the Server. It is possible to run both the server and client app on the same computer (if using wireshark to monitor packets, this will not show the incoming/outgoing packets unless run on two different computers/IP). For more information feel free to contact the author of this repository.
