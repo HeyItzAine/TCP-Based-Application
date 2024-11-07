@@ -5,12 +5,12 @@ This Application allows for TCP communication between a server and client.
 This project is made up of two applications: a server and a client app.
 
 ## 📝 Table of Contents
-- [Overview](#-📖-overview)
-- [How It Works](#-⚙️how-it-works)
-- [Setup and Run Instructions](#-🚀-setup-and-run-instructions)
-- [Features](#-✨-features)
-- [Dependencies](#-📦-dependencies)
-- [Notes](#-📝-Notes)
+- [Overview](#overview)
+- [How It Works](#how-it-works)
+- [Setup and Run Instructions](#setup-and-run-instructions)
+- [Features](#features)
+- [Dependencies](#dependencies)
+- [Notes](#notes)
 
 ## 📖 Overview
 This project consists of:
