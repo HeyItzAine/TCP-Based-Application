@@ -34,7 +34,7 @@ cd TCP-Based-Application
 
 ### 2. Install dependencies:
 ```bash
-pip install Pillow
+pip install -r requirements.txt
 ```
 
 ### 3. Run the applications:
